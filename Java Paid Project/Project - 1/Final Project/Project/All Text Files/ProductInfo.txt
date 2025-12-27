@@ -1,0 +1,24 @@
+100 Gold/10/40
+Water Care/11/40
+Salt Packet/15/70
+Heater/16/300
+12*24 inch Glass fish tank/17/1000
+10 Gallon fish tank/18/1200
+Small size fish tank/19/800
+Bowl shape fish tank/20/500
+Filter/21/550
+Net Set/22/40
+Single net/24/30
+Aquaris/7/200
+Osaka/6/200
+Pipe/23/90
+Optimum/5/150
+Goldfish/3/1200
+Nova/8/150
+Guppy/1/200
+Molly /2/200
+Artificial /14/50
+Betta Fish/4/1000
+Blue/9/50
+Color Stone/13/100
+Vitamin/12/12

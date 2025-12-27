@@ -1,0 +1,5 @@
+Ctg,Non-AC,1499
+Syl,AC,2499
+Ctg,AC,2499
+Khu,Non-AC,1999
+Raj,AC,1999

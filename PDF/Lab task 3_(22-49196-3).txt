@@ -1,0 +1,31 @@
+1. select sysdate AS "DATE"
+   from dual;
+
+2. select EMPNO,ENAME,SAL, ROUND(SAL*1.15) AS "New Salary"
+   from emp;
+
+3. select EMPNO,ENAME,SAL, ROUND(SAL*1.15) AS "NewSalary",ROUND(SAL*1.15)-SAL as "Increase"
+   from emp;
+
+
+
+4. select ename, hiredate, INITCAP(TO_CHAR(NEXT_DAY(ADD_MONTHS(hiredate,6),'MONDAY'),'day," the "ddspth " of "month, yyyy') )"REVIEW"
+  from emp;
+
+ 
+
+5. select ename, ROUND(MONTHS_BETWEEN(sysdate,hiredate),0) "MONTHS_WORKED"
+  from emp
+  order by months_worked;
+
+ 
+
+6. select CONCAT(CONCAT(CONCAT(CONCAT(ename,' earns '),sal),' monthly but wants '), sal*3) "Dream Salaries"
+   from emp;
+
+ 
+
+7. select INITCAP(ename) "EMPLOYEE NAME",LENGTH(ename) "LENGTH OF EMPLOYEE NAME"
+   from emp
+   where INSTR(ename,'J')=1 or INSTR(ename,'A')=1 or INSTR(ename,'M')=1;
+
